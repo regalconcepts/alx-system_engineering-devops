@@ -1,3 +1,10 @@
 #!/bin/bash
 
-*\\\'"Best School"\\\'*$?*****:)
+# Define the desired file name with proper escaping
+filename='*\\\'"Best School"\\\'*\$?*****:)'
+
+# Use echo to write the text to the file, including a newline
+echo -e "Best School\n" > "$filename"
+
+# Print a message indicating the file creation
+echo "File '$filename' has been created."
