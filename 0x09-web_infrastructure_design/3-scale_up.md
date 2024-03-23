@@ -2,8 +2,6 @@
 
 ![Image of a scaled up web infrastructure](3-scale_up.JPG)
 
-[Visit Board](https://miro.com/app/board/uXjVKdektaE=/)
-
 ## Description
 
 This web infrastructure is a scaled up version of the infrastructure described [here](2-secured_and_monitored_web_infrastructure.md). In this setup, we've made sure there are no single points where everything can go wrong (SPOFs). Each important part, like the web server, application server and database servers, now have their own separate computers running on GNU/Linux. We're also keeping things secure by not stopping the SSL protection (which keeps our data safe) at the load balancer. Plus, each computer has its own firewall (like a security guard) to protect its network and we're keeping an eye on everything to make sure it stays safe.

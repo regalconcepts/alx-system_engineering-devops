@@ -2,8 +2,6 @@
 
 ![Image of a distributed web infrastructure](1-distributed_web_infrastructure.JPG)
 
-[Visit Board](https://miro.com/app/board/uXjVKdfQjLg=/)
-
 ## Description
 
 This is a distributed web infrastructure system which is like having a main store (primary) and a backup store(replica), along with a helper(server) who makes sure both stores share the workload. So instead of everyone crowding into the main store(primary), some people can go to the backup store(replica), and the helper(server) makes sure both stores(primary and replica) have about the same number of customers.
